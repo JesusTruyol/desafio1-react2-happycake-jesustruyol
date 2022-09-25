@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbarbg, .btn-form{
+  background-color: #DC3546;
+
+}
+
+.container-home, .container-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.img-home{
+  width: 20%;
+}
+.container-form{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-email, .form-description, .container-NotFound{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emoji-NotFound{
+  font-size: 100px;
+  color: rgb(0, 0,0,0.5);
+  text-align: center;
+}
